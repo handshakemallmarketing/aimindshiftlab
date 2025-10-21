@@ -1,0 +1,7 @@
+# Force canonical host (prefer www)
+https://aimindshiftlab.com/*  https://www.aimindshiftlab.com/:splat  301!
+
+# Pretty affiliate routes (replace with your links)
+/partners/systeme   https://example.com/your-systeme-affiliate  301
+/partners/jasper    https://example.com/your-jasper-affiliate   301
+/partners/zapier    https://example.com/your-zapier-affiliate   301

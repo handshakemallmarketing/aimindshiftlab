@@ -1,0 +1,12 @@
+/* aimindshiftlab base styles */
+:root { --text:#0f172a; --bg:#fff; --brand:#2563eb; }
+*{box-sizing:border-box} html,body{margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+a{color:var(--brand);text-decoration:none} a:hover{text-decoration:underline}
+.container{max-width:960px;margin:0 auto;padding:24px}
+.header{padding:24px 0;border-bottom:1px solid #e5e7eb}
+.btn{display:inline-block;padding:.7rem 1rem;border-radius:.75rem;border:1px solid #e5e7eb}
+.btn-primary{background:var(--brand);color:#fff;border-color:var(--brand)}
+.hero{padding:56px 0}
+.card{border:1px solid #e5e7eb;border-radius:1rem;padding:16px}
+footer{margin-top:64px;padding:24px 0;border-top:1px solid #e5e7eb;color:#475569}
